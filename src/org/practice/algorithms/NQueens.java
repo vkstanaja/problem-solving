@@ -1,7 +1,6 @@
 package org.practice.algorithms;
 
 public class NQueens {
-
     public int[] nQueens(int n) {
         boolean []c = new boolean [n];
         boolean []d1 = new boolean[2*n];
